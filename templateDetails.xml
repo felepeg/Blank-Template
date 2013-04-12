@@ -3,16 +3,16 @@
 
 <extension version="2.5" type="template" client="site" method="upgrade">
 	
-	<name>frontend</name><!-- name the template -->
-	<creationDate>xxxx-xx-xx</creationDate><!-- the date your are beginn to code -->
-	<author>your name</author><!-- your name (oops, I repeat myself) -->
-	<copyright>Copyright © xxxx example.com</copyright><!-- for who you are coding -->
-	<authorEmail>your.name@example.com</authorEmail><!-- your email address -->
-	<authorUrl>http://www.example.com</authorUrl><!-- your url -->
+	<name>felepeG</name><!-- name the template -->
+	<creationDate>2013-04-13</creationDate><!-- the date your are beginn to code -->
+	<author>Felipe Gonzalez</author><!-- your name (oops, I repeat myself) -->
+	<copyright>Copyright © xxxx.nexite.cl</copyright><!-- for who you are coding -->
+	<authorEmail>felipegonzalezr@gmail.com</authorEmail><!-- your email address -->
+	<authorUrl>http://www.nexite.cl</authorUrl><!-- your url -->
 	<version>1.0.0</version><!-- give your template a number -->
 	<description><![CDATA[ 
 		<h1>frontend</h1>
-		<p>Created by <a href="http://www.example.com" target="_blank">your name | example.com</a>.</p>
+		<p>Created by <a href="http://www.nexite.cl" target="_blank">FelepeG | nexite.cl</a>.</p>
 	]]></description><!-- change the description as you like -->
 	
 	<files><!-- no need to change -->
@@ -40,6 +40,14 @@
 	</languages>
 	
 	<positions><!-- define the positions for modules here -->
+		<position>logo</position>
+		<position>menu</position>
+		<position>login</position>
+		<position>arribacontent</position>
+		<position>leftbar</position>
+		<position>rightbar</position>
+		<position>abajocontent</position>
+		<position>footer</position>
 		<position>debug</position>
 	</positions>
 	
